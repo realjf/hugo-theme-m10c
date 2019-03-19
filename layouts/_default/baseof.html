@@ -27,5 +27,9 @@
         {{ .Content }}
       {{ end }}
     </main>
+    {{ partial "sidebar.html" $ }}
+    <div class="app-footer">
+      {{ partial "footer.html" $ }}
+    </div>
   </body>
 </html>

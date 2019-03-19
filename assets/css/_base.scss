@@ -31,3 +31,16 @@ pre {
   overflow: auto;
 }
 
+.app-footer {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  text-align: center;
+}
+
+.aside-menu {
+  float: right;
+  position: fixed;
+  right: 100px;
+  top: 20px;
+}

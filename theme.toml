@@ -15,3 +15,16 @@ min_version = 0.43
   name = "vaga"
   homepage = "https://vaga.io"
 
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "posts"
+    title = "posts"
+    url = "/posts/"
+    weight = -110
+  [[menu.main]]
+    identifier = "kubernetes"
+    name = "kubernetes"
+    title = "kubernetes"
+    url = "kubernetes"
+    weight = 100
